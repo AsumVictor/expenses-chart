@@ -5,12 +5,16 @@ body{
     min-height: 100vh;
 }
 
-.header{
+.header,.graphContainer{
     width:9cm;
 }
 
+p{
+    font-size: 11px;
+}
+
   @media only screen and (min-width: 480px) {
-    .header{
+    .header,.graphContainer{
         width:12cm;
     }
   }
