@@ -1,4 +1,8 @@
 window.addEventListener('load',()=>{
+    graph=[
+        
+    ]
+
     const graphContent = `
     <div class="tooltip p-1 rounded-md font-bold">$17.45</div>
     <div class="bar bg-SoftRed rounded-md mt-1" style="height:3cm;width:1cm;"></div>
