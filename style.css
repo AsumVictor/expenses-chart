@@ -8,7 +8,10 @@ body{
 .header,.graphContainer{
     width:95%;
 }
-
+img{
+    height: 1cm;
+    width: 1cm;
+}
 p{
     font-size: 11px;
 }
