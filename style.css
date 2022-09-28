@@ -24,10 +24,16 @@ p{
 .barsContainer{
     width:1cm;
 }
+
 .bar{
     width:1cm;
     height: var(--height);
     background-color:hsl(10, 79%, 65%)
+}
+
+.bar:hover{
+    background-color:hsl(10, 65%, 73%);
+    z-index:1;
 }
 
 .barsContainer:hover .tooltip{

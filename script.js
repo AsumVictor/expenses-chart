@@ -48,5 +48,14 @@ window.addEventListener('load',()=>{
       }); 
       let heighest = document.querySelector('.barsContainer:nth-child(3) .bar')
       heighest.style.backgroundColor= '#76b5bc'
+      function hover() {
+        heighest.style.backgroundColor= '#72cbd6'
+        
+      }
+      function unhover() {
+        heighest.style.backgroundColor= '#76b5bc'
+      }
+      heighest.addEventListener('mouseover',hover)
+      heighest.addEventListener('mouseleave',unhover)
 
 })
