@@ -18,6 +18,13 @@ p{
     color: transparent;
 }
 
+.barsContainer{
+    width:1cm;
+}
+.bar{
+    width:1cm;
+    height: var(--height);
+}
 .barsContainer:hover .tooltip{
     background-color: hsl(25, 47%, 15%);
     color: hsl(30, 58%, 91%);
