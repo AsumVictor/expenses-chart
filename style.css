@@ -24,7 +24,9 @@ p{
 .bar{
     width:1cm;
     height: var(--height);
+    background-color:hsl(10, 79%, 65%)
 }
+
 .barsContainer:hover .tooltip{
     background-color: hsl(25, 47%, 15%);
     color: hsl(30, 58%, 91%);
