@@ -13,6 +13,17 @@ p{
     font-size: 11px;
 }
 
+.tooltip{
+    background-color: transparent;
+    color: transparent;
+}
+
+
+.barsContainer:hover .tooltip{
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(30, 58%, 91%);
+}
+
   @media only screen and (min-width: 480px) {
     .header,.graphContainer{
         width:12cm;
