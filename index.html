@@ -12,24 +12,39 @@
 <body class="flex items-center justify-center bg-VeryPaleOrange">
     <!-- MAin container -->   
   <div class="chartComponentContainer flex flex-col items-center w-full">
+    <!-- Chart header -->
        <div class="header flex flex-row justify-between item-center bg-SoftRed rounded-2xl p-5
                     text-white " >
         <div class="flex flex-col">
-          <p class="text-1xl ">My balance</p>
+          <p class="font-bold text-VeryPaleOrange">My balance</p>
           <h3 class="font-bold text-2xl mt-1">$921.48</h3>
         </div>
         <img src="images/logo.svg" alt="Logo" srcset="images/logo.svg" class=" w-1/12 md:w-2/12">
        </div>  
-      
-       <div class="graphContainer flex flex-col bg-white">
-         <h3>Spending - Last 7 days </h3>
-           <div class="graph flex flex-row justify-around">
-              <div class="barsContainer flex flex-col">
+    <!-- Chart component -->
+       <div class="graphContainer flex flex-col bg-white mt-5 rounded-2xl p-5">
+         <h3 class="text-2xl font-bold text-DarkBrown:">Spending - Last 7 days </h3>
+    <!-- Chart  graph -->
+           <div class="graph flex flex-row justify-around mt-4">
+              <div class="barsContainer flex flex-col items-center">
                    <div class="tooltip">$17.45</div>
-                   <div class="bar"></div>
-                   <div class="x-axis-days">Mon</div>
+                   <div class="bar bg-SoftRed rounded-md" style="height:2cm;width:1cm;"></div>
+                   <p class="x-axis-days font-bold">Mon</p>
               </div>
            </div>
+              <!-- Chart footer -->
+           <div class="graphFooter mt-4 flex flex-row border-t-2 border-Cream pt-5 justify-between items-center">
+             <div class="monthAmount flex flex-col">
+                 <p class="font-bold text-gray-500">Total this month</p>
+                  <h3 class="text-3xl font-bold text-DarkBrown">$478.33</h3>
+             </div>
+             <div class="monthAnalysis flex flex-col">
+              <h5 class="font-bold text-DarkBrown text-1xl text-right">+2.4%</h5>
+               <p  class="font-bold text-gray-500">from last month</p >
+          </div>
+          
+           </div>
+              
        </div>
   </div>
 
