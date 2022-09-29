@@ -11,11 +11,8 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Support](#Support)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -40,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://asumvictor.github.io/expenses-chart/)
 
 ## My process
 
