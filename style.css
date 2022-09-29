@@ -3,6 +3,8 @@
 }
 body{
     min-height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+
 }
 
 .header,.graphContainer{
@@ -26,7 +28,7 @@ p{
 }
 
 .bar{
-    width:1cm;
+    width:.8cm;
     height: var(--height);
     background-color:hsl(10, 79%, 65%)
 }
@@ -44,5 +46,8 @@ p{
   @media only screen and (min-width: 480px) {
     .header,.graphContainer{
         width:12cm;
+    }
+    .bar{
+        width:1cm;
     }
   }

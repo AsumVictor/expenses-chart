@@ -37,7 +37,7 @@ window.addEventListener('load',()=>{
         const graphContent = `
         <div class="tooltip p-1 rounded-md font-bold">$${graphBar.amount}</div>
         <div class="bar rounded-md mt-1" style="--height:${height};"></div>
-        <p class="x-axis-days font-bold text-gray-500">${graphBar.day}</p>
+        <p class="x-axis-days capitalize font-bold text-gray-500">${graphBar.day}</p>
         `
         let bar = document.createElement('div') 
         bar.setAttribute('class','barsContainer cursor-pointer flex flex-col items-center')

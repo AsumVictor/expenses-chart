@@ -53,6 +53,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
+## Support
+Compare the picture in the [design](design/) folder and [screenshot](screenshot/). If you like it give me a ⭐⭐⭐⭐⭐⭐
+
 ## Author
 
 - Website - [My Portfolio](https://asumvictor.github.io/Portfolio/)
